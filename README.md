@@ -2,11 +2,11 @@
 
 Ruby morse encoder/decoder with support for multiple languages.
 
-[![Gem Version](https://badge.fury.io/rb/i18n_morse.png)][gem]
-[![Build Status](https://secure.travis-ci.org/styx/i18n_morse.png?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/styx/i18n_morse.png)][gemnasium]
-[![Code Climate](https://codeclimate.com/github/styx/i18n_morse.png)][codeclimate]
-[![Coverage Status](https://coveralls.io/repos/styx/i18n_morse/badge.png?branch=master)][coveralls]
+![Gem Version](https://badge.fury.io/rb/i18n_morse.png)
+![Build Status](https://secure.travis-ci.org/styx/i18n_morse.png?branch=master)
+![Dependency Status](https://gemnasium.com/styx/i18n_morse.png)
+![Code Climate](https://codeclimate.com/github/styx/i18n_morse.png)
+![Coverage Status](https://coveralls.io/repos/styx/i18n_morse/badge.png?branch=master)
 
 This gem allows you transcode between Morse code and normal text in both ways.
 The main difference from other gems it can be easily extended with new languages.
