@@ -18,6 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  unless ENV['TRAVIS']
+    spec.signing_key = File.join(Dir.home, '/.gem/trust/gem-private_key.pem')
+    spec.cert_chain = ['gem-public_cert.pem']
+  end
+
   spec.add_dependency 'unicode'
 
   spec.add_development_dependency 'bundler', '~> 1.3'

@@ -28,6 +28,11 @@ Or install it yourself as:
     $ gem install i18n_morse
 
 
+## Changelog
+
+* v0.0.2 - Added sign to the gem
+* v0.0.1 - Initial release
+
 ## Usage
 
 TODO: Write usage instructions here
