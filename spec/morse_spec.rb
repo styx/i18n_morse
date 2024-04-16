@@ -34,7 +34,4 @@ describe 'Morse' do
       '-- --- .-. --.. .'.from_morse('ru').should eq 'МОРЗЕ'
     end
   end
-
-
-
 end
